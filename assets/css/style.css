@@ -124,17 +124,18 @@ body {
   color: white;
 }
 
-#buttons button {
+.styleButtons {
   padding: 5px;
   background-color: transparent;
   width: 30px;
   border-radius: 5px;
   border: 1px solid transparent;
   transition: background-color .5s ease;
+  text-align: center;
   cursor: pointer;
 }
 
-#buttons button:hover {
+.styleButtons:hover {
   border: 1px solid var(--color-3);
   background-color: var(--color-2);
 }
