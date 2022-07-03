@@ -113,6 +113,7 @@ body {
 
 .card-task {
   width: 100%;
+  height: 100px;
   padding: 30px 20px;
   margin-bottom: 20px;
   background-color: var(--color-1);
@@ -122,6 +123,22 @@ body {
   justify-content: space-between;
   align-items: center;
   color: white;
+}
+
+#nameTaskCard {
+  width: 200px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+}
+
+#descriptionTaskCard {
+  width: 500px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
 }
 
 .styleButtons {
@@ -146,6 +163,23 @@ body {
 .btn-delete {
   color: red;
   font-size: 1.3em;
+}
+
+.btn-reload {
+  color: yellow;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.completedTask {
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+#buttons {
+  width: 64px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (max-width: 768px) {
