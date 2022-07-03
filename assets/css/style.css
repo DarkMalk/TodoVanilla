@@ -151,6 +151,7 @@ body {
 @media (max-width: 768px) {
   .header form {
     flex-direction: column;
+    align-items: flex-start;
   }
   .inputs {
     margin-bottom: 10px;
@@ -158,5 +159,6 @@ body {
   }
   #btnSubmit {
     width: 350px;
+    margin: 0 auto;
   }
 }
