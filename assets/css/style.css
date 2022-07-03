@@ -177,6 +177,7 @@ body {
 }
 
 #buttons {
+  margin-left: 10px;
   width: 64px;
   display: flex;
   justify-content: space-between;
