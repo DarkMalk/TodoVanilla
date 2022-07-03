@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.17e50649.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo vanilla</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/assets/index.4ba78a70.js"></script>
+    <link rel="stylesheet" href="/assets/index.253934fd.css">
+  </head>
+  <body>
+    <header class="header">
+      <form id="form">
+        <input
+          type="text"
+          placeholder="Nombre tarea"
+          autocomplete="off"
+          autofocus
+          class="inputs"
+          id="nameTask"
+        />
+        <input
+          type="text"
+          placeholder="Introduce la descripción"
+          autocomplete="off"
+          class="inputs"
+          id="descriptionTask"
+        />
+        <button type="submit" id="btnSubmit">Añadir</button>
+      </form>
+    </header>
+    <main class="container">
+      <section class="tasks"></section>
+    </main>
+    <template
+      ><div class="card-task">
+        <div id="nameTaskCard">Name</div>
+        <div id="descriptionTaskCard"></div>
+        <div id="buttons">
+            <i class="fa-solid fa-check btn-check styleButtons" id="buttonCheck"></i>
+            <i class="fa-solid fa-xmark btn-delete styleButtons" id="buttonDelete"></i>
+        </div>
+      </div>
+    </template>
+    
+  </body>
+</html>
