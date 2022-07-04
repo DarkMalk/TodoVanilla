@@ -25,6 +25,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-image: url(../img/layered-waves-haikei.svg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: var(--color-1);
